@@ -1,0 +1,386 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Huile d'Argan Cosmétique",
+      "reference": "#ARG-2024-001",
+      "price": 180.00,
+      "stock": 45,
+      "category": "cosmetiques",
+      "description": "Huile d'argan pure 100% bio, 50ml"
+    },
+    {
+      "id": 2,
+      "name": "Tapis Beni Ouarain (2x3m)",
+      "reference": "#TAP-BO-99",
+      "price": 4500.00,
+      "stock": 3,
+      "category": "artisanat",
+      "description": "Tapis berbère authentique en laine naturelle"
+    },
+    {
+      "id": 3,
+      "name": "Thé Royal Sultan Special",
+      "reference": "#THE-SLT-22",
+      "price": 45.00,
+      "stock": 120,
+      "category": "thes",
+      "description": "Thé vert à la menthe, 250g"
+    },
+    {
+      "id": 4,
+      "name": "Savon Noir Traditionnel",
+      "reference": "#SAV-NOIR-01",
+      "price": 25.00,
+      "stock": 80,
+      "category": "cosmetiques",
+      "description": "Savon noir marocain pour le hammam, 200g"
+    },
+    {
+      "id": 5,
+      "name": "Pot de Céramique Safi",
+      "reference": "#CER-SAFI-15",
+      "price": 120.00,
+      "stock": 25,
+      "category": "artisanat",
+      "description": "Pot en céramique bleue de Safi, décoration"
+    },
+    {
+      "id": 6,
+      "name": "Ras El Hanout Premium",
+      "reference": "#EPI-RH-50",
+      "price": 35.00,
+      "stock": 60,
+      "category": "epices",
+      "description": "Mélange d'épices traditionnel, 100g"
+    },
+    {
+      "id": 7,
+      "name": "Thé à la Menthe Nana",
+      "reference": "#THE-NANA-30",
+      "price": 28.00,
+      "stock": 150,
+      "category": "thes",
+      "description": "Thé vert Gunpowder avec menthe fraîche, 200g"
+    },
+    {
+      "id": 8,
+      "name": "Sac en Cuir Marocain",
+      "reference": "#CUI-SAC-88",
+      "price": 350.00,
+      "stock": 12,
+      "category": "artisanat",
+      "description": "Sac à main en cuir véritable, fait main"
+    },
+    {
+      "id": 9,
+      "name": "Huile d'Argan Alimentaire",
+      "reference": "#ARG-ALIM-02",
+      "price": 95.00,
+      "stock": 30,
+      "category": "cosmetiques",
+      "description": "Huile d'argan comestible, 250ml"
+    },
+    {
+      "id": 10,
+      "name": "Carreaux Zellige Bleu",
+      "reference": "#ZEL-BLEU-10",
+      "price": 85.00,
+      "stock": 200,
+      "category": "artisanat",
+      "description": "Carreaux zellige bleu, 15x15cm, lot de 10"
+    },
+    {
+      "id": 11,
+      "name": "Cumin en Poudre",
+      "reference": "#EPI-CUM-25",
+      "price": 18.00,
+      "stock": 90,
+      "category": "epices",
+      "description": "Cumin moulu, 100g"
+    },
+    {
+      "id": 12,
+      "name": "Couscous Premium",
+      "reference": "#COU-PREM-40",
+      "price": 22.00,
+      "stock": 75,
+      "category": "epices",
+      "description": "Couscous fin de qualité supérieure, 500g"
+    },
+    {
+      "id": 13,
+      "name": "Infusion Verveine",
+      "reference": "#INF-VER-18",
+      "price": 15.00,
+      "stock": 110,
+      "category": "thes",
+      "description": "Infusion de verveine, 20 sachets"
+    },
+    {
+      "id": 14,
+      "name": "Crème Hydratante Argan",
+      "reference": "#CRE-ARG-05",
+      "price": 65.00,
+      "stock": 40,
+      "category": "cosmetiques",
+      "description": "Crème hydratante à l'huile d'argan, 100ml"
+    },
+    {
+      "id": 15,
+      "name": "Plateau en Bois de Cèdre",
+      "reference": "#BOI-PLA-33",
+      "price": 180.00,
+      "stock": 18,
+      "category": "artisanat",
+      "description": "Plateau sculpté en bois de cèdre, 40x30cm"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Argania Premium",
+      "contact": "Ahmed Benali",
+      "email": "contact@argania.ma",
+      "phone": "+212 661 234 567",
+      "city": "Essaouira",
+      "address": "Zone Industrielle, Essaouira"
+    },
+    {
+      "id": 2,
+      "name": "Atelier Tapis Berbères",
+      "contact": "Fatima Ait",
+      "email": "info@tapis-berberes.ma",
+      "phone": "+212 662 345 678",
+      "city": "Azrou",
+      "address": "Centre Artisanal, Azrou"
+    },
+    {
+      "id": 3,
+      "name": "Thé Sultan Royal",
+      "contact": "Mohamed Alaoui",
+      "email": "ventes@thesultan.ma",
+      "phone": "+212 663 456 789",
+      "city": "Fès",
+      "address": "Médina, Fès"
+    },
+    {
+      "id": 4,
+      "name": "Céramiques du Maroc",
+      "contact": "Hassan El Fassi",
+      "email": "contact@ceramiques.ma",
+      "phone": "+212 664 567 890",
+      "city": "Safi",
+      "address": "Route de Casablanca, Safi"
+    },
+    {
+      "id": 5,
+      "name": "Épices Orientales",
+      "contact": "Aicha Benjelloun",
+      "email": "info@epices-orientales.ma",
+      "phone": "+212 665 678 901",
+      "city": "Marrakech",
+      "address": "Souk Semmarine, Marrakech"
+    },
+    {
+      "id": 6,
+      "name": "Cuir Marocain Premium",
+      "contact": "Omar Tazi",
+      "email": "ventes@cuir-premium.ma",
+      "phone": "+212 666 789 012",
+      "city": "Fès",
+      "address": "Tannerie Chouara, Fès"
+    },
+    {
+      "id": 7,
+      "name": "Zellige Artisanal",
+      "contact": "Khadija Alami",
+      "email": "contact@zellige-art.ma",
+      "phone": "+212 667 890 123",
+      "city": "Meknès",
+      "address": "Place El Hedim, Meknès"
+    },
+    {
+      "id": 8,
+      "name": "Huiles Essentielles Bio",
+      "contact": "Youssef Idrissi",
+      "email": "info@huiles-bio.ma",
+      "phone": "+212 668 901 234",
+      "city": "Agadir",
+      "address": "Zone Industrielle, Agadir"
+    },
+    {
+      "id": 9,
+      "name": "Textiles Traditionnels",
+      "contact": "Laila Bensaid",
+      "email": "contact@textiles-trad.ma",
+      "phone": "+212 669 012 345",
+      "city": "Rabat",
+      "address": "Avenue Mohammed V, Rabat"
+    },
+    {
+      "id": 10,
+      "name": "Bijoux Berbères",
+      "contact": "Rachid Amrani",
+      "email": "info@bijoux-berberes.ma",
+      "phone": "+212 670 123 456",
+      "city": "Tiznit",
+      "address": "Souk des Bijoutiers, Tiznit"
+    }
+  ],
+  "warehouses": [
+    {
+      "id": 1,
+      "name": "Entrepôt Central Casablanca",
+      "address": "Zone Industrielle Sidi Bernoussi",
+      "city": "Casablanca",
+      "capacity": 10000,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Entrepôt Régional Rabat",
+      "address": "Route de Témara",
+      "city": "Rabat",
+      "capacity": 5000,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Dépôt Marrakech",
+      "address": "Zone Industrielle Sidi Ghanem",
+      "city": "Marrakech",
+      "capacity": 3500,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Entrepôt Tanger",
+      "address": "Zone Franche Tanger Med",
+      "city": "Tanger",
+      "capacity": 8000,
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Dépôt Fès",
+      "address": "Route de Meknès",
+      "city": "Fès",
+      "capacity": 4000,
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Entrepôt Agadir",
+      "address": "Zone Industrielle Anza",
+      "city": "Agadir",
+      "capacity": 6000,
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Dépôt Oujda",
+      "address": "Zone Industrielle",
+      "city": "Oujda",
+      "capacity": 3000,
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "name": "Entrepôt Tétouan",
+      "address": "Route de Sebta",
+      "city": "Tétouan",
+      "capacity": 2500,
+      "status": "maintenance"
+    },
+    {
+      "id": 9,
+      "name": "Dépôt Meknès",
+      "address": "Zone Industrielle",
+      "city": "Meknès",
+      "capacity": 2800,
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "name": "Entrepôt Salé",
+      "address": "Boulevard Zerktouni",
+      "city": "Salé",
+      "capacity": 3200,
+      "status": "active"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cosmétiques Naturels",
+      "description": "Produits de beauté à base d'ingrédients naturels",
+      "status": "active",
+      "productCount": 24
+    },
+    {
+      "id": 2,
+      "name": "Artisanat",
+      "description": "Tapis, poteries et objets artisanaux marocains",
+      "status": "active",
+      "productCount": 18
+    },
+    {
+      "id": 3,
+      "name": "Thés & Infusions",
+      "description": "Thés traditionnels et infusions marocaines",
+      "status": "active",
+      "productCount": 32
+    },
+    {
+      "id": 4,
+      "name": "Épices & Condiments",
+      "description": "Épices du Maroc et condiments traditionnels",
+      "status": "active",
+      "productCount": 15
+    },
+    {
+      "id": 5,
+      "name": "Céramiques & Poteries",
+      "description": "Céramiques artisanales et poteries traditionnelles",
+      "status": "active",
+      "productCount": 12
+    },
+    {
+      "id": 6,
+      "name": "Cuir & Maroquinerie",
+      "description": "Articles en cuir et maroquinerie marocaine",
+      "status": "active",
+      "productCount": 20
+    },
+    {
+      "id": 7,
+      "name": "Zellige & Mosaïques",
+      "description": "Carreaux zellige et mosaïques artisanales",
+      "status": "active",
+      "productCount": 8
+    },
+    {
+      "id": 8,
+      "name": "Huiles Essentielles",
+      "description": "Huiles essentielles et produits aromatiques",
+      "status": "active",
+      "productCount": 16
+    },
+    {
+      "id": 9,
+      "name": "Textiles & Vêtements",
+      "description": "Textiles traditionnels et vêtements marocains",
+      "status": "active",
+      "productCount": 14
+    },
+    {
+      "id": 10,
+      "name": "Bijoux & Accessoires",
+      "description": "Bijoux berbères et accessoires traditionnels",
+      "status": "active",
+      "productCount": 22
+    }
+  ]
+}
+
