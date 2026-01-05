@@ -8,6 +8,7 @@
 <!-- REMPLACEZ LES LIENS CI-DESSOUS -->
 - **APPLICATION DÉPLOYÉE (Live Demo) :** [CLIQUEZ ICI POUR VOIR LE SITE](https://)
 - **Repository GitHub :** [Lien vers ce repo](https://)
+- lien de site web :https://mohamed-elboutahri.github.io/Gestion-de-Stock-Inventaire/
 
 ---
 
