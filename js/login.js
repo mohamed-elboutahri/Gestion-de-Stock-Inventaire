@@ -58,7 +58,7 @@ function showError(message) {
 function checkAuth() {
     const session = localStorage.getItem('session');
     if (session) {
-        window.location.href = 'index.html';
+        window.location.href = 'dashboard.html';
     }
 }
 
@@ -94,7 +94,7 @@ loginForm.addEventListener('submit', (e) => {
         }
         
         // Redirect to main page
-        window.location.href = 'index.html';
+        window.location.href = 'dashboard.html';
     } else {
         showError('Email ou mot de passe incorrect. Veuillez réessayer.');
         document.getElementById('password').value = '';

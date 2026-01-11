@@ -438,7 +438,7 @@ if (typeof storage === 'undefined') {
 function checkAuth() {
     const session = localStorage.getItem('session') || sessionStorage.getItem('session');
     if (!session) {
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
         return;
     }
     
@@ -456,7 +456,7 @@ function checkAuth() {
         }
     } catch (e) {
         console.error('Error parsing session:', e);
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     }
 }
 
@@ -465,7 +465,7 @@ window.logout = function() {
     if (confirm('Êtes-vous sûr de vouloir vous déconnecter ?')) {
         localStorage.removeItem('session');
         sessionStorage.removeItem('session');
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     }
 };
 
