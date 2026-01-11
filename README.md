@@ -1,53 +1,93 @@
-# Nom du Projet (ex: MyManager - Gestion Hospitalière)
+# Quantum Maghrib - Gestion de Stock & Inventaire
 
-<!-- Mettez un court slogan ou une description en une phrase ici -->
-> Application Backoffice de gestion réalisée dans le cadre du module Dévelopement web.
+> Application web de gestion de stock et inventaire pour les produits marocains traditionnels.
 
 ## 🔗 Liens Importants
 
-<!-- REMPLACEZ LES LIENS CI-DESSOUS -->
-- **APPLICATION DÉPLOYÉE (Live Demo) :** [CLIQUEZ ICI POUR VOIR LE SITE](https://)
-- **Repository GitHub :** [Lien vers ce repo](https://)
-- lien de site web :https://mohamed-elboutahri.github.io/Gestion-de-Stock-Inventaire/
+- **APPLICATION DÉPLOYÉE (Live Demo) :** [CLIQUEZ ICI POUR VOIR LE SITE](https://mohamed-elboutahri.github.io/Gestion-de-Stock-Inventaire/)
+- **Repository GitHub :** [Lien vers ce repo](https://github.com/mohamed-elboutahri/Gestion-de-Stock-Inventaire)
+- **Page de connexion :** [Connexion](https://mohamed-elboutahri.github.io/Gestion-de-Stock-Inventaire/index.html)
 
 ---
 
 ## 👥 Membres de l'Équipe
 
-**Nom du Groupe :** [Insérer le nom du groupe ici]
+**Nom du Groupe :** Quantum Maghrib
 
 | Prénom & Nom | Rôle / Tâches principales | Lien Github |
 |--------------|---------------------------|-------------|
-| Étudiant 1   | (ex: Dashboard, ChartJS)  | [@pseudo](https://github.com/pseudo) |
-| Étudiant 2   | (ex: CRUD Utilisateurs)   | [@pseudo](https://github.com/pseudo) |
-| Étudiant 3   | (ex: CSS, Responsive)     | [@pseudo](https://github.com/pseudo) |
+| Mohamed Elboutahri | Développement Full-Stack, UI/UX | [@mohamed-elboutahri](https://github.com/mohamed-elboutahri) |
 
 ---
 
 ## 📝 Thème Choisi
-<!-- Indiquez le thème choisi parmi la liste ou votre sujet personnalisé -->
-*   **Thème :** (ex: Gestion de Bibliothèque / Gestion Immobilière / Custom...)
-*   **Description :** Une brève explication du but de l'application.
+*   **Thème :** Gestion de Stock & Inventaire
+*   **Description :** Application web complète pour la gestion d'un entrepôt de produits marocains traditionnels (huile d'argan, tapis, thé, épices, artisanat). Inclut la gestion des produits, fournisseurs, entrepôts, commandes et catégories.
 
 ---
 
 ## ✅ État d'Avancement (Checklist)
-<!-- Cochez les cases [x] pour les fonctionnalités terminées. Laissez [ ] pour ce qui n'est pas fait. -->
 
 ### Fonctionnalités Principales
-- [ ] **CRUD 1 :** [Nom Entité, ex: Utilisateurs] (Create, Read, Update, Delete)
-- [ ] **CRUD 2 :** [Nom Entité]
-- [ ] **CRUD 3 :** [Nom Entité]
-- [ ] **CRUD 4 :** [Nom Entité]
-- [ ] **CRUD 5 :** [Nom Entité]
-- [ ] **Recherche & Filtres** dans les tableaux
-- [ ] **Pagination**
+- [x] **CRUD Produits :** Gestion complète des produits (Create, Read, Update, Delete)
+- [x] **CRUD Fournisseurs :** Gestion des partenaires fournisseurs
+- [x] **CRUD Entrepôts :** Gestion des lieux de stockage
+- [x] **CRUD Catégories :** Organisation des produits par catégories
+- [x] **CRUD Commandes d'Achat :** Gestion des achats auprès des fournisseurs
+- [x] **Recherche & Filtres** dans tous les tableaux
+- [x] **Pagination** (implémentée dans les vues)
 
 ### Dashboard & Data
-- [ ] **KPIs :** Cartes avec chiffres clés (Total utilisateurs, revenus, etc.)
-- [ ] **Chart 1 :** [Type, ex: Pie Chart]
-- [ ] **Chart 2 :** [Type, ex: Bar Chart]
-- [ ] **Chart 3 :** [Type]
+- [x] **KPIs :** Cartes avec statistiques (Revenus, Commandes actives, Taux de conversion, Satisfaction client)
+- [x] **Authentification :** Système de login avec sessions persistantes
+- [x] **Navigation :** Interface moderne avec sidebar responsive
+- [x] **Modals :** Formulaires d'ajout/modification dans des modales
+- [x] **Local Storage :** Persistance des données côté client
+
+### Technologies Utilisées
+- [x] **Frontend :** HTML5, CSS3, JavaScript (ES6+)
+- [x] **UI Framework :** Design system personnalisé avec animations
+- [x] **Data Storage :** LocalStorage pour la persistance
+- [x] **Responsive :** Design adaptatif mobile et desktop
+- [x] **Déploiement :** GitHub Pages
+
+---
+
+## 🚀 Comment utiliser l'application
+
+1. **Accès :** Rendez-vous sur [la page de connexion](https://mohamed-elboutahri.github.io/Gestion-de-Stock-Inventaire/index.html)
+2. **Connexion :** Utilisez les identifiants suivants :
+   - Email : `admin@quantummaghrib.ma`
+   - Mot de passe : `admin123`
+3. **Navigation :** Utilisez la sidebar pour naviguer entre les différentes sections
+4. **Gestion :** Ajoutez, modifiez ou supprimez des éléments via les boutons d'action
+
+---
+
+## 📊 Fonctionnalités Clés
+
+- **Tableau de Bord :** Vue d'ensemble avec statistiques et KPIs
+- **Gestion des Produits :** Catalogue complet avec recherche et filtres
+- **Gestion des Fournisseurs :** Base de données des partenaires
+- **Gestion des Entrepôts :** Suivi des lieux de stockage
+- **Commandes d'Achat :** Gestion des achats et approvisionnement
+- **Catégories :** Organisation hiérarchique des produits
+- **Ventes :** Interface pour enregistrer les ventes clients
+
+---
+
+## 🎨 Design & UX
+
+- Interface moderne et intuitive
+- Palette de couleurs marocaine (bleu, blanc, touches dorées)
+- Animations fluides et transitions
+- Design responsive pour tous les appareils
+- Icônes SVG cohérentes
+- Typographie moderne (Inter font)
+
+---
+
+*Application développée avec ❤️ pour la gestion efficace des stocks marocains.*
 - [ ] **Chart 4 :** [Type]
 - [ ] **Chart 5 :** [Type]
 
